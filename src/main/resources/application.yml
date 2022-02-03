@@ -10,7 +10,7 @@ spring:
         - id: USER-SERVICE
           uri: lb://USER-SERVICE
           predicates:
-            - PATH=/users/**
+            - Path=/users/**
         - id: DEPATRMENT-SERVICE
           uri: lb://DEPARTMENT-SERVICE
           predicates:
